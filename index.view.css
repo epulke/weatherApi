@@ -1,0 +1,114 @@
+.weather
+{
+    display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
+    margin: 40px;
+    padding-right: 300px;
+    padding-left: 300px;
+
+}
+
+.weather .current
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url("weather.png");
+    background-repeat: repeat-x;
+    color: white;
+    padding: 40px;
+    text-shadow: 1px 1px #0f0f0f;
+
+
+}
+
+.weather .current .info
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.weather .current .info .city
+{
+    font-size: 26px;
+}
+
+.weather .current .info .temp
+{
+    font-size: 56px;
+}
+
+.weather .current .info .wind
+{
+    font-size: 24px;
+}
+
+.weather .current .icon
+{
+    text-align: center;
+    font-size: 64px;
+    flex-grow: 1;
+}
+
+.weather .future
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.weather .future .day
+{
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.weather .future .day
+{
+    color: #fff;
+    background-color: #7a95e6;
+}
+
+.weather .future .day h3
+{
+    text-transform: uppercase;
+}
+
+.weather .future .day p
+{
+    font-size: 28px;
+}
+
+
+
+
+.weather .new .day
+{
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.weather .new .day p
+{
+    font-size: 28px;
+}
+
+.weather .new .day
+{
+    color: #fff;
+    background-color: #879fe6;
+
+}
+
+.weather .new
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.weather .new .day h3
+{
+    text-transform: uppercase;
+}
